@@ -44,6 +44,7 @@ padding: 2px;
 text-align: center;
 font-size: 10px;
 color: white;
+margin-top:5%;
 }
 input[type=text], select {
   width: 25%;
@@ -55,11 +56,16 @@ input[type=text], select {
   margin-left: 1%;
 }
 label{
-  padding: 10px;
-  color: black;
-  font-size: large;
-  font-weight: bold;
-  display: inline;
+ padding:5px;
+font-size:xx-large;
+font-weight:bolder;
+border: medium;
+border: double; 
+border-color: orange;
+margin-left:28%;
+margin-right:5%;
+margin-bottom:5%;
+width: 80%;
 }
 fieldset{
   padding: 10px;
@@ -103,11 +109,10 @@ border-color: orange;
 margin-left:10%;
 margin-right:5%;
 margin-top:5%;
-margin-bottom:5%;
-
+margin-bottom:1%;
 width: 80%;
 }
-</style>
+</style> 
 <title>Insert title here</title>
 </head>
 <body>
@@ -123,9 +128,16 @@ width: 80%;
     </ul>
   </nav>
 </section>
-<img alt="HomePage testing 2" src="https://res.cloudinary.com/der6mjm7p/image/upload/v1664554670/CustomerManagement/HomePage_nm9iby.jpg" />
+<img alt="HomePage" src="https://res.cloudinary.com/der6mjm7p/image/upload/v1664554670/CustomerManagement/HomePage_nm9iby.jpg" />
+<label> Home Page ScreenShot and Its Button Functionalities</label>
 <img alt="RegistrationForm" src="https://res.cloudinary.com/der6mjm7p/image/upload/v1664554670/CustomerManagement/RegistrationForm_tpb3mk.jpg"/>
+<label> Registration Form ScreenShot and Its Button Functionalities</label>
 <img alt="SearchForm" src="https://res.cloudinary.com/der6mjm7p/image/upload/v1664554670/CustomerManagement/SearchForm_s0djqy.jpg"/>
+<label> Search Form ScreenShot and Its Button Functionalities</label>
+<img alt="Message Confirmation for Updating Record " src="https://res.cloudinary.com/der6mjm7p/image/upload/v1664643407/CustomerManagement/Confirmation_Message_of_Updating_Record_uqclov.jpg"/>
+<label> Record Updation Confirmation Message ScreenShot </label>
+<img alt="Message Confirmation for Searching Record " src="https://res.cloudinary.com/der6mjm7p/image/upload/v1664643407/CustomerManagement/Confirmation_Message_of_Deleting_Record_yj4hwf.jpg"/>
+<label> Record Deletion Confirmation Message ScreenShot </label>
 <footer>
 <h1>CUSTOMER RELATIONSHIP MANAGER</h1>
 </footer>

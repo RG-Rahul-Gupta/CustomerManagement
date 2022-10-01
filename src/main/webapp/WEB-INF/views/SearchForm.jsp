@@ -148,7 +148,7 @@ margin-top: -2%;
         <td><c:out value="${tempCustomer.emailId}" /></td>
         <td>
           <a href="/CustomerManagement/updateRecord?id=${tempCustomer.id}"><button>UPDATE</button></a>
-          <a href="/CustomerManagement/deleteRecord?id=${tempCustomer.id}"><button>DELETE</button></a>
+          <a href="/CustomerManagement/deleteRecord?id=${tempCustomer.id}"onclick="if(!(confirm('Are you sure you want to delete the record ?')))return false"><button>DELETE</button></a>
         </td>
       </tr>
    </c:forEach>

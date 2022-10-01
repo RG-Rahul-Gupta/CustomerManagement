@@ -17,12 +17,7 @@ public class CustomerController {
 	
 	@Autowired
 	private CustomerServices customerServices;
-//	
-//	@RequestMapping("/")
-//	public String showHomePage() {
-//		return "HomePage" ;
-//	}
-//	
+
 	@RequestMapping("/")
 	public String showRecords(Model theModel) {
 	    List<Customers> listOfCustomers = customerServices.showAll();
@@ -59,7 +54,7 @@ public class CustomerController {
         customers.setLastName(lastName);
         customers.setEmailId(emailId);
         customerServices.insertRecord(customers);
-		return "HomePage" ;
+		return "redirect:/" ;
 	}
 	
 	@RequestMapping("/deleteRecord")

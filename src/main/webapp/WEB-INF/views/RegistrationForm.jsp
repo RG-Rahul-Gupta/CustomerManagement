@@ -111,7 +111,7 @@ margin-top: -2%;
 <br>
 <br>
 <label>Update the Details of Existing Customers:</label>
-<button type="submit" value="update" formaction="/CustomerManagement/saveRecord">UPDATE</button>
+<button type="submit" value="update" formaction="/CustomerManagement/saveRecord" onclick="if(!(confirm('Are you sure you want to update the record ?')))return false">UPDATE</button>
 </fieldset>
 </form>
 <footer>
